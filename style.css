@@ -1,0 +1,42 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+.thala__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background: #fff;
+    border-radius: 30px;
+}
+.thala__container input {
+    height: 50px;
+    width: 200px;
+}
+.thala__container button {
+    height: 50px;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#thala__vd {
+    height: 200px;
+    width: 200px;
+  visibility: hidden;
+}
